@@ -65,10 +65,9 @@ export default function App() {
         </div>
         <div className="col-12 text-center mt-3">
           <a
-            href={`https://twitter.com/intent/tweet?text=${quotes.quote} - ${quotes.author}`}
+            href="https://twitter.com/intent/tweet"
             id="tweet-quote"
             target="_blank"
-            rel="noopener noreferrer"
             className="link-light text-decoration-none"
           >
             Tweet Quote
